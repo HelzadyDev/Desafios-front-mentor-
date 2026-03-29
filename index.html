@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog preview card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <article class="card" aria-labelledby="post-title">
+        <img
+          class="card__cover"
+          src="./assets/images/illustration-article.svg"
+          alt="Ilustração abstrata do artigo"
+          width="336"
+          height="200"
+        />
+
+        <div class="card__content">
+          <p class="card__tag">Learning</p>
+
+          <p class="card__date">
+            <time datetime="2023-12-21">Published 21 Dec 2023</time>
+          </p>
+
+          <h1 class="card__title" id="post-title">
+            <a href="#" class="card__title-link">HTML &amp; CSS foundations</a>
+          </h1>
+
+          <p class="card__description">
+            These languages are the backbone of every website, defining structure,
+            content, and presentation.
+          </p>
+
+          <footer class="card__author">
+            <img
+              class="card__avatar"
+              src="./assets/images/image-avatar.webp"
+              alt="Foto de Greg Hooper"
+              width="32"
+              height="32"
+            />
+            <p class="card__author-name">Greg Hooper</p>
+          </footer>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
